@@ -1,0 +1,21 @@
+#portrait {
+  width: 30vw;
+
+  position: relative;
+}
+
+#welcomeBox {
+  position: relative;
+
+  left: 30vw;
+}
+
+h1 {
+  color: rgb(255, 193, 146);
+}
+h2 {
+  color: rgb(255, 240, 224);
+}
+p {
+  color: rgb(255, 240, 224);
+}
