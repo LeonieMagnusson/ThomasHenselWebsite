@@ -1,21 +1,75 @@
-#portrait {
+#gridBox{
+  display: grid;
+  grid-template-rows: 1fr repeat(6);
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "welcomeAnimationBox welcomeAnimationBox"
+  "portraitBox aboutBox"
+  "interestsBox interestsBox"
+  "physicsImageBox physicsTextBox"
+  "philosophyImageBox philosophyTextBox"
+  "footerBox footerBox"
+  ;
+}
+
+.box{
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+}
+
+#welcomeAnimationBox{
+  grid-area: welcomeAnimationBox;
+}
+
+#portraitBox{
+  grid-area: portraitBox;
+}
+
+#portraitImage {
   width: 30vw;
-
-  position: relative;
 }
 
-#welcomeBox {
-  position: relative;
-
-  left: 30vw;
+#aboutBox{
+  grid-area: aboutBox;
 }
 
-h1 {
-  color: rgb(255, 193, 146);
+#interestsBox{
+  grid-area: interestsBox;
 }
-h2 {
-  color: rgb(255, 240, 224);
+
+#physicsImageBox{
+  grid-area: physicsImageBox;
 }
-p {
-  color: rgb(255, 240, 224);
+
+#physicsTextBox{
+  grid-area: physicsTextBox;
+}
+
+#philosophyImageBox{
+  grid-area: philosophyImageBox;
+}
+
+#philosophyTextBox{
+  grid-area: philosophyTextBox;
+}
+
+#footerBox{
+  grid-area: footerBox;
+}
+
+@media screen and (max-width: 550px) {
+  #gridBox{
+    grid-template-rows: 1fr repeat(7);
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "welcomeAnimationBox"
+    "portraitBox"
+    "aboutBox"
+    "interestsBox"
+    "physicsImageBox"
+    "philosophyImageBox"
+    "footerBox"
+    ;
+  }
 }
