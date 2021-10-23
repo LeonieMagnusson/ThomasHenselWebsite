@@ -1,3 +1,3 @@
 # ThomasHenselWebsite
 
-Please look at this before it comes in to the repository...
+Please look at this before you inspect the repository :-)
