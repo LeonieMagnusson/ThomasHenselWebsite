@@ -1,0 +1,13 @@
+#gridBox{
+    display: grid;
+    grid-template-rows: 1fr repeat(6);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "welcomeAnimationBox welcomeAnimationBox"
+    "portraitBox aboutBox"
+    "interestsBox interestsBox"
+    "physicsImageBox physicsTextBox"
+    "philosophyImageBox philosophyTextBox"
+    "footerBox footerBox"
+    ;
+  }
