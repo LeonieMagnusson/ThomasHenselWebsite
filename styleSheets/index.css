@@ -21,10 +21,12 @@
 
 #welcomeAnimationBox{
   grid-area: welcomeAnimationBox;
+  border: 2px solid var(--accent2);
 }
 
 #portraitBox{
   grid-area: portraitBox;
+  height: 50vh;
 }
 
 #portraitImage {
