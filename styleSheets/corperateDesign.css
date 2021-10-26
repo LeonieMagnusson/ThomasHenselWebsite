@@ -46,7 +46,7 @@ p {
   color: rgb(255, 240, 224);
 }
 
-.projectImage {/*class to define size of images in project descriptions*/
+.imageTile {/*class to define size of images in project descriptions*/
   width: 30vw;
 }
 

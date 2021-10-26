@@ -52,97 +52,115 @@
       ></a>
     </div>
   </header>
-  <!--gridBox contains the whole layout-->
-  <div id="gridBox">
-    <div class="box" id="welcomeAnimationBox">
-      <p>this is the awesome welcome animation! </p>
-    </div>
-    <div class="box" id="portraitBox">
-      <img id="portraitImage" src="images/thomasPortrait.jpg" alt="A portrait of Thomas Hensel.">
-    </div>
-    <div class="box" id="aboutBox">
-      <h3>
-        About
-      </h3>
-      <p>
-        I am passionate about physics and philosophy.
-        This website is an invitation to have a look at my work.
-        I hope it conveys my excitement about some of the pretty cool ideas that I work on together with my colleagues. <br>
+  <body>
+    <!--gridBox contains the whole layout-->
+    <div id="gridBox">
+      <div class="box" id="welcomeAnimationBox">
+        <p>this is the awesome welcome animation! </p>
+      </div>
+      <div class="box" id="portraitBox">
+        <img id="portraitImage" src="images/thomasPortrait.jpg" alt="A portrait of Thomas Hensel.">
+      </div>
+      <div class="box" id="aboutBox">
+        <h3>
+          About
+        </h3>
+        <p>
+          I am passionate about physics and philosophy.
+          This website is an invitation to have a look at my work.
+          I hope it conveys my excitement about some of the pretty cool ideas that I work on together with my colleagues. <br>
 
-        Regarding physics, I am mostly interested in quantum theory. 
-        I would like to find new ways to measure very small quantities by employing quantum systems.
-        This field is also called quantum metrology and describes the art of measurements with non-classical systems. <br>
+          Regarding physics, I am mostly interested in quantum theory. 
+          I would like to find new ways to measure very small quantities by employing quantum systems.
+          This field is also called quantum metrology and describes the art of measurements with non-classical systems. <br>
 
-        There are questions beyond physics, that fall into the realm of philosophy.
-        The natural sciences are in a way descriptive of the world, but they cannot make a normative assessment of their findings
-        without appealing to philosophy. <br>
-        One very recent example is the current progress in artificial intelligence.
-        Computer science may develop breakthrough technologies, but that does not make them inherently good nor bad.
-        It needs careful philosophical consideration to answer these questions.
-        I work on these issues of artificial morality and ethical AI. <br>
+          There are questions beyond physics, that fall into the realm of philosophy.
+          The natural sciences are in a way descriptive of the world, but they cannot make a normative assessment of their findings
+          without appealing to philosophy. <br>
+          One very recent example is the current progress in artificial intelligence.
+          Computer science may develop breakthrough technologies, but that does not make them inherently good nor bad.
+          It needs careful philosophical consideration to answer these questions.
+          I work on these issues of artificial morality and ethical AI. <br>
 
-        Feel free to get in touch for questions or if you are interested in a collaboration.
-        I am always looking forward to meet new people and bridge the gap between society and the scientific community.
-      </p>
-    </div>
-    
-    <div class="box" id="interestsBox">
-      <h2>
-        Interests
-      </h2>
-    </div>
+          Feel free to get in touch for questions or if you are interested in a collaboration.
+          I am always looking forward to meet new people and bridge the gap between society and the scientific community.
+        </p>
+      </div>
+      
+      <div class="box" id="interestsBox">
+        <h2>
+          Interests
+        </h2>
+      </div>
 
-    <div class="box" id="physicsTextBox">
-      <h3>
-        Physics
-      </h3>
-      <p>
-        My work in physics comprises of fundamental research in the area of quantum sensing.
-        Possible applications can be found in the medical sciences, to develop novel quantum imaging methods
-        or to advance quantum computing with reliable state-tomography protocols.
-        Click the box below to see a selection of my contributions.
-      </p>
-    </div>
-    
-    <div class="box" id="physicsImageBox">
-      /* Color background and text overlay on hover */
-      <div class="overlay-image"><a href="LINK_URL">
-        <img class="image projectImage" src="images/quantum-physics.jpg" alt="Alt text" />
-        <div class="normal">
-          <div class="text">
-            Image + text ORIGINAL
+
+      
+      <!--PhysicsImage: Color background and text overlay on hover-->
+      <div class="box imageTile" id="physicsImageBox">
+        <div class="overlay-image"><a href="LINK_URL">
+          <img class="image" src="images/quantum-physics.jpg" alt="Alt text" />
+          <div class="normal">
+            <div class="text">
+              <!--Image + text ORIGINAL-->
+            </div>
           </div>
-        </div>
-        <div class="hover">
-          <div class="text">
-            Background + text HOVER
+          <div class="hover">
+            <div class="text">
+              Click to see projects
+            </div>
           </div>
-        </div>
-      </a></div>
-    </div>
-    
-    <div class="box" id="philosophyTextBox">
-      <h3>
-        Philosophy
-      </h3>
-      <p>
-        Lately, I have been engaged in research on artificial morality.
-        How can machines become moral?
-        How can they learn to make ethical decisions?
-        I approach these problems from a philosophical point of view and work in interdisciplinary projects with computer scientists.
-      </p>
-    </div>
-    
-    <div class="box" id="philosophyImageBox">
-      <img class="projectImage" src="images/phil.jpg" alt="">
-    </div>
+        </a></div>
+      </div>
+
+      <!--Description of physical interest-->
+      <div class="box" id="physicsTextBox">
+        <h3>
+          Physics
+        </h3>
+        <p>
+          My work in physics comprises of fundamental research in the area of quantum sensing.
+          Possible applications can be found in the medical sciences, to develop novel quantum imaging methods
+          or to advance quantum computing with reliable state-tomography protocols.
+          Click the box below to see a selection of my contributions.
+        </p>
+      </div>
+
+      <!--PhilosophyImage: color background and text overlay on hover-->
+      <div class="box imageTile" id="philosophyImageBox">
+        <div class="overlay-image"><a href="LINK_URL">
+          <img class=" image" src="images/phil.jpg" alt="Alt text" />
+          <div class="normal">
+            <div class="text">
+              <!--Image + text ORIGINAL-->
+            </div>
+          </div>
+          <div class="hover">
+            <div class="text">
+              Click to see projects
+            </div>
+          </div>
+        </a></div>
+      </div>
+
+      <!--Description of philosophical interest-->
+      <div class="box" id="philosophyTextBox">
+        <h3>
+          Philosophy
+        </h3>
+        <p>
+          Lately, I have been engaged in research on artificial morality.
+          How can machines become moral?
+          How can they learn to make ethical decisions?
+          I approach these problems from a philosophical point of view and work in interdisciplinary projects with computer scientists.
+        </p>
+      </div>
+
+    <!--Footer-->
     <div class="box" id="footerBox">
       <h3>
         footer
       </h3>
       <p>see my public PGP keys</p>
     </div>
-  </div>
-
-  <body></body>
+  </body>
 </html>

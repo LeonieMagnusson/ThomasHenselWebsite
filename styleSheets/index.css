@@ -1,8 +1,9 @@
 #gridBox{
   display: grid;
+  padding: 2vw 5vw 0vw 5vw;/*use some padding to prevent content and social media icons from collision*/
   grid-template-rows: 1fr repeat(6);
   grid-template-columns: 1fr 1fr;
-  grid-template-areas:
+  grid-template-areas:/*specify the arrangement of the content*/
   "welcomeAnimationBox welcomeAnimationBox"
   "portraitBox aboutBox"
   "interestsBox interestsBox"
